@@ -1,0 +1,181 @@
+@import url('./fonts.css');
+
+body  {
+	 background-color: #18171f;
+      }
+
+h1	 {
+	 font-family: 'Conv_PlazaStd';
+	 color: lightgrey;
+	 text-shadow: 3px 3px 1px #6f6f3e;
+	 font-size: 100px;
+	 margin: 50px;
+      }
+
+p	 {
+	 font-family: 'Conv_PlazaStd';
+	 color: lightgrey;;
+	 font-size: 40px;
+	 margin: 40px;
+      }  
+
+.card {
+      background-color: #18171f;
+      border:none;
+      }
+.btn-custom {
+	 font-family: 'Conv_PlazaStd';
+	 color: #3a3a3a;
+	 font-size: 30px;
+	 background-color: #d4c11f;
+	 border-radius: 50px;
+	 border: 1px dotted;
+	 padding: 4px 0px;
+	 display: flow-root;
+	 opacity: 0.9;
+	 transition: background 0.3s ease
+      }  
+   
+.btn-custom:hover {
+      background: #d4c11f;
+      color: black;
+      opacity: 1;
+      box-shadow: none;
+      }
+
+.card-img-bottom {
+      border-radius: 8px;
+      width: 100%;
+      height: 75%;
+      }
+.footer {
+	 font-family: 'Conv_PlazaStd';
+	 color: lightgrey;
+	 font-size: 22px;
+	 margin: 0px;
+      background: #18171f;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 100px;
+      padding: 0px 50px;
+      }
+.footer-links {
+      display: flex;
+      align-items: center;
+      }
+.footer-links a {
+      color: #d4c11f;
+      opacity: 0.9;
+      text-decoration: none;
+      font-size: 24px;
+      padding: 0px 10px;
+      }
+.footer-links a:hover {
+      opacity: 1;
+      }
+.footer .fa-heart {
+      color: #d4c11f;
+      }
+
+
+@media (max-width: 768px) { 
+.footer {      
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      }
+
+<!-- producto -->
+
+.card-product {
+      overflow: hidden;
+      height: 120px;
+      background: white;
+      box-shadow: 3px 3px 1px #6f6f3e;
+      display: flex;
+      align-items: center;
+}      }
+
+
+.card-product .card-product-infos {
+      padding: 2px;
+      }
+.btn-ghost {
+      font-family: 'Conv_PlazaStd';      
+      color: lightgrey;
+      font-size: 40px;
+      border: 1px dotted;
+      padding: 8px 24px;
+      border-radius: 50px;
+      font-weight: lighter;
+      opacity: 0.6;
+      transition: opacity 0.3s ease; 
+      width: 200px;
+      height: 60px;
+      justify-content: space-between;
+      }
+
+
+.btn-ghost:hover {
+      opacity: 1;
+      color: lightgrey;
+      border:none;
+      }
+
+  
+.opciones {
+      font-family: 'Conv_PlazaStd';
+      color: lightgrey;
+      font-size: 30px;
+      opacity: 0.9;
+      transition: opacity 0.3s ease;
+      text-decoration: none;
+      }
+
+.opciones:hover {
+      opacity: 1;
+      color: lightgrey;
+      }
+#tag {
+      font-family: 'Conv_PlazaStd';
+      color: lightgrey;
+      font-size: 35px;
+      opacity: 0.8;
+      transition: opacity 0.3s ease;
+      text-decoration: none;
+      margin-right: 20px;
+      }
+
+#tag:hover {
+      opacity: 1;
+      color: lightgrey;
+      }
+
+#ordendecompra:{
+      opacity: 0.9;
+      color: lightgrey;
+      }
+
+.btn-primary {
+      font-family: 'Conv_PlazaStd';
+      color: grey;
+      background-color: lightgrey;
+      border:none;
+      font-size: 25px;
+      opacity: 0.9;
+      transition: opacity 0.3s ease;
+      text-decoration: none;
+      }
+
+.btn-primary:hover {
+      opacity: 1;
+      color: grey;
+      background-color: lightgrey;
+      border:none;
+      }          
+.bg-dark {
+      background-color: #18171f !important;
+      }
+
